@@ -1,5 +1,6 @@
-export const Sum = ({ a = 0, b = 0 }) => (
-  <p>
-    Sum of {a} and {b} is {a + b}
-  </p>
+/* eslint-disable prettier/prettier */
+export const Sum = ({ a, b }) => (
+<p>
+  {`Sum of ${a} and ${b} is ${a + b}`}
+</p>
 );
